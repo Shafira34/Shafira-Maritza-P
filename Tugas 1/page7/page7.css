@@ -1,0 +1,68 @@
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: tan;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img {
+    max-width: 500px;
+    margin: auto;
+    display: block;
+}
+
+.static {
+    position: static;
+}
+
+.relative1 {
+    position: relative;
+    border: solid maroon;
+}
+
+.relative2 {
+    text-align: justify;
+    position: relative;
+    top: -20px;
+    left: 200px;
+    background-color: wheat;
+    width: 500px;
+}
+
+.fixed {
+    text-align: justify;
+    position: fixed;
+    bottom: 120px;
+    right: 120px;
+    width: 200px;
+    background-color: maroon;
+    color: white
+}
+
+.relative {
+    position: relative;
+    width: 600px;
+    height: 400px;
+}
+
+.absolute {
+    position: absolute;
+    top: 300px;
+    right: 0;
+    width: 300px;
+    height: 200px;
+}
+
+button {
+    font-size: medium;
+    background-color: peachpuff;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-color: peachpuff;
+    height: 40px;
+    width: 100px;
+}

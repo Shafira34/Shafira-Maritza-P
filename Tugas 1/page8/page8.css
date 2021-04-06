@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    left: 0px;
+    width: 200px;
+}
+
+section {
+    /* position is static by default */
+    margin-left: 200px;
+}
+
+img {
+    margin: auto;
+    display: block;
+    max-width: 675px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    background-color: maroon;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    width: 100%;
+}
+
+body {
+    margin-bottom: 120px;
+    background-color: rosybrown;
+    color: ghostwhite;
+}
+
+button {
+    font-size: medium;
+    background-color: peachpuff;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-color: peachpuff;
+    height: 40px;
+    width: 100px;
+}

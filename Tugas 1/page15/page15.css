@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: wheat;
+}
+
+img {
+    margin: auto;
+    display: block;
+    max-width: 150px;
+    max-height: 80px;
+}
+
+.box {
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: solid maroon ;
+}
+
+.after-box {
+    clear: left;
+}
+
+.box2 {
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    margin: 1em;
+    border: solid maroon;
+}
+
+button {
+    font-size: medium;
+    background-color: ghostwhite;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-color: ghostwhite;
+    height: 40px;
+    width: 100px;
+}
